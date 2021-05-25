@@ -1094,6 +1094,14 @@
     axios-retry "^3.1.2"
     consola "^2.7.1"
 
+"@nuxtjs/dotenv@^1.4.0":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.4.1.tgz#dd5abb98e22cc7ae27139d3aa606151034293128"
+  integrity sha512-DpdObsvRwC8d89I9mzz6pBg6e/PEXHazDM57DOI1mmML2ZjHfQ/DvkjlSzUL7T+TnW3b/a4Ks5wQx08DqFBmeQ==
+  dependencies:
+    consola "^2.10.1"
+    dotenv "^8.1.0"
+
 "@nuxtjs/proxy@^1.3.3":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/proxy/-/proxy-1.3.3.tgz#3de3d9f073e8e57167168100940be2a824a220e0"
@@ -2190,13 +2198,15 @@ browserify-zlib@^0.2.0:
     pako "~1.0.5"
 
 browserslist@^4.0.0, browserslist@^4.4.2, browserslist@^4.6.0, browserslist@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.6.1.tgz#ee5059b1aec18cbec9d055d6cb5e24ae50343a9b"
-  integrity sha512-1MC18ooMPRG2UuVFJTHFIAkk6mpByJfxCrnUyvSlu/hyQSFHMrlhM02SzNuCV+quTP4CKmqtOMAIjrifrpBJXQ==
+  version "4.16.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
+  integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
   dependencies:
-    caniuse-lite "^1.0.30000971"
-    electron-to-chromium "^1.3.137"
-    node-releases "^1.1.21"
+    caniuse-lite "^1.0.30001219"
+    colorette "^1.2.2"
+    electron-to-chromium "^1.3.723"
+    escalade "^3.1.1"
+    node-releases "^1.1.71"
 
 bser@^2.0.0:
   version "2.0.0"
@@ -2370,10 +2380,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000971, caniuse-lite@^1.0.30000973:
-  version "1.0.30000973"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000973.tgz#2f8e8e54f9e6c5b7a631c9e69bfa1093d8cfd360"
-  integrity sha512-/F3t/Yo8LEdRSEPCmI15fLu5vepVh9UCg/9inJXF5AAfW7xRRJkbaM2ut52iRMQMnGCLQouLbFdbOA+VEFOIsg==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000971, caniuse-lite@^1.0.30000973, caniuse-lite@^1.0.30001219:
+  version "1.0.30001228"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001228.tgz#bfdc5942cd3326fa51ee0b42fbef4da9d492a7fa"
+  integrity sha512-QQmLOGJ3DEgokHbMSA8cj2a+geXqmnpyOFT0lhQV6P3/YOJvGDEwoedcwxEQ30gJIwIIunHIicunJ2rzK5gB2A==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -2596,6 +2606,11 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
+colorette@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
+
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2690,6 +2705,11 @@ connect@^3.6.6, connect@^3.7.0:
     finalhandler "1.1.2"
     parseurl "~1.3.3"
     utils-merge "1.0.1"
+
+consola@^2.10.1:
+  version "2.15.3"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz#2e11f98d6a4be71ff72e0bdf07bd23e12cb61550"
+  integrity sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==
 
 consola@^2.3.0, consola@^2.5.6, consola@^2.6.0, consola@^2.7.1:
   version "2.7.1"
@@ -3566,6 +3586,11 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
+dotenv@^8.1.0:
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
+  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
+
 dotgitignore@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/dotgitignore/-/dotgitignore-2.1.0.tgz#a4b15a4e4ef3cf383598aaf1dfa4a04bcc089b7b"
@@ -3619,10 +3644,10 @@ ejs@^2.6.1:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
   integrity sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
 
-electron-to-chromium@^1.3.137:
-  version "1.3.146"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.146.tgz#d7010f417f87c2068fbb6700ae57767e2393eba7"
-  integrity sha512-BrUq08sx7eR4PCwLbjFxXmjcbDro6DSoc1pN8VCxq76U+o9JQzJlWH/NVtcpAqcktwpE5CVvMyqHqTQfCETNoQ==
+electron-to-chromium@^1.3.723:
+  version "1.3.738"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.738.tgz#aec24b091c82acbfabbdcce08076a703941d17ca"
+  integrity sha512-vCMf4gDOpEylPSLPLSwAEsz+R3ShP02Y3cAKMZvTqule3XcPp7tgc/0ESI7IS6ZeyBlGClE50N53fIOkcIVnpw==
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -3741,6 +3766,11 @@ es6-promisify@^5.0.0:
   integrity sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=
   dependencies:
     es6-promise "^4.0.3"
+
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -6735,12 +6765,10 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-releases@^1.1.21:
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.23.tgz#de7409f72de044a2fa59c097f436ba89c39997f0"
-  integrity sha512-uq1iL79YjfYC0WXoHbC/z28q/9pOl8kSHaXdWmAAc8No+bDwqkZbzIJz55g/MUsPgSGm9LZ7QSUbzTcH5tz47w==
-  dependencies:
-    semver "^5.3.0"
+node-releases@^1.1.71:
+  version "1.1.72"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
+  integrity sha512-LLUo+PpH3dU6XizX3iVoubUNheF/owjXCZZ5yACDxNnPtgFuludV1ZL3ayK1kVep42Rmm0+R9/Y60NQbZ2bifw==
 
 nopt@^4.0.1:
   version "4.0.1"
